@@ -11,7 +11,22 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 <body>
 
+<div class="menu" style="left: 0px;">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+	</ul>
+	<img class="icon-close" width="24px" src="/assets/close-white.svg" alt="Close"</img>
+</div>
+
 <%= yield %>
+
+<div class="footer">
+  <div class="container">
+    <p>@ Paula Grzesiak</p>
+  </div>
+</div>
 
 </body>
 </html>

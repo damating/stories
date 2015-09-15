@@ -1,15 +1,5 @@
-<div id="menu" class="menu" style="left: 0px;">
-        <ul>
-            <li><a href="#">Menu Item 1</a></li>
-            <li><a href="#">Menu Item 2</a></li>
-            <li><a href="#">Menu Item 3</a></li>
-	</ul>
-	<img id="icon-close" class="icon-close" width="24px" src="/assets/close-white.svg" alt="Close"</img>
-</div>
-
-
 <div class="home-main">
-  <img id="icon-menu" class="icon-menu" width="24px" src="/assets/menu-white.svg" alt="Open"</img>
+  <img class="icon-menu" width="24px" src="/assets/menu-white.svg" alt="Open"</img>
   <div class="container">
     <div class="row">
       <div class="content col-md-6 col-md-offset-6">
@@ -48,8 +38,4 @@
 
 
 
-<div class="footer">
-  <div class="container">
-    <p>@ Paula Grzesiak</p>
-  </div>
-</div>
+

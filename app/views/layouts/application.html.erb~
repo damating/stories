@@ -7,14 +7,27 @@
   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  
 </head>
-  
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 <body>
+
+<div class="menu" style="left: 0px;">
+        <ul>
+            <li><a href="/">Menu Item 1</a></li>
+            <li><a href="/about">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+	</ul>
+	<img class="icon-close" width="24px" src="/assets/close-white.svg" alt="Close"</img>
+</div>
 
 <%= yield %>
 
+<div class="footer">
+  <div class="container">
+    <p>@ Paula Grzesiak</p>
+  </div>
+</div>
+
 </body>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </html>
 
